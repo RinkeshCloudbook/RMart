@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">R-Mart</string>
+    <string-array name="array_grocery">
+        <item>Dals and Pulses</item>
+        <item>Dry Fruits</item>
+        <item>Masala and Spices</item>
+        <item>Flours and Grains</item>
+        <item>Salt / Sugar / Jaggery</item>
+        <item>Rice and Rice Products</item>
+        <item>Cooking Oil and Ghee</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

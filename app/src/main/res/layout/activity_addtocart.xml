@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addtocart"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="#29593e"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/backarrow" />
+
+        <TextView
+            android:layout_width="@dimen/_225sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="#29593e"
+            android:gravity="center_vertical"
+            android:padding="@dimen/_5sdp"
+            android:text="Cart"
+            android:textColor="#edf2ef"
+            android:textSize="@dimen/_17sdp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            android:background="#edf2ef">
+            <ImageView
+                android:id="@+id/cartIcon"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="right"
+                android:background="#29593e"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/scart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circletextview"
+                android:textSize="@dimen/_10sdp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:id="@+id/txtCartCount"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:text="cart"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="#c8ceca"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="@dimen/_5sdp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="items "
+                    android:id="@+id/cartItems"
+                    android:textColor="#222322"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Item(s) in cart"
+                    android:textColor="#222322"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SAVING "
+                    android:textColor="#222322"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtSaving"
+                    android:text="TOTAL"
+                    android:textColor="#222322"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL PRICE "
+                android:textColor="#29593e"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:textColor="#29593e"
+                android:textStyle="bold"
+                android:textSize="@dimen/_13sdp"
+                android:id="@+id/totalCartAmount"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cart_lv"/>
+
+</LinearLayout>

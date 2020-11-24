@@ -1,0 +1,332 @@
+{
+	"items" : [
+		{
+			"category_id" : "Dals and Pulses",
+			"item_id" : "g_001",
+			"item_name" : "Chana Dal",
+			"price" : 100.0,
+			"save_price" : 10.0,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 10
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 20
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 50
+				},
+				{
+					"pack_weight" : "1 kg",
+					"available" : 3,
+					"wPrice" : 90
+				}
+			],
+			"item_icon" : "daal.png"
+		},
+		{
+			"category_id" : "Dals and Pulses",
+			"item_id" : "g_002",
+			"item_name" : "Mung Dal",
+			"price" : 542.0,
+			"save_price" : 22.5,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 10
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 20
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 50
+				},
+				{
+					"pack_weight" : "1 kg",
+					"available" : 3,
+					"wPrice" : 80
+				}
+			],
+			"item_icon" : "daal.png"
+		},
+		{
+			"category_id" : "Dals and Pulses",
+			"item_id" : "g_003",
+			"item_name" : "Urad Dal",
+			"price" : 50.0,
+			"save_price" : 8.23,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 20
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 40
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 65
+				},
+				{
+					"pack_weight" : "1 kg",
+					"available" : 3,
+					"wPrice" : 120
+				}
+			],
+			"item_icon" : "daal.png"
+		},
+		{
+			"category_id" : "Dals and Pulses",
+			"item_id" : "g_003",
+			"item_name" : "Masur Dal",
+			"price" : 50.0,
+			"save_price" : 8.23,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 10
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 20
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 55
+				},
+				{
+					"pack_weight" : "1 kg",
+					"available" : 3,
+					"wPrice" : 100
+				}
+			],
+			"item_icon" : "daal.png"
+		},
+		{
+			"category_id" : "Dry Fruits",
+			"item_id" : "dry1",
+			"item_name" : "Badam",
+			"price" : 50.0,
+			"save_price" : 8.23,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 35
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 105
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 350
+				}
+
+			],
+			"item_icon" : "dryfruits.png"
+		},
+		{
+			"category_id" : "Dry Fruits",
+			"item_id" : "dry2",
+			"item_name" : "Kaju",
+			"price" : 50.0,
+			"save_price" : 8.23,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 35
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 105
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 350
+				}
+
+			],
+			"item_icon" : "dryfruits.png"
+		},
+		{
+			"category_id" : "Dry Fruits",
+			"item_id" : "dry3",
+			"item_name" : "Pista",
+			"price" : 50.0,
+			"save_price" : 8.23,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 35
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 105
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 350
+				}
+
+			],
+			"item_icon" : "dryfruits.png"
+		},
+		{
+			"category_id" : "Dry Fruits",
+			"item_id" : "dry4",
+			"item_name" : "Drax",
+			"price" : 50.0,
+			"save_price" : 8.23,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 35
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 105
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 350
+				}
+
+			],
+			"item_icon" : "dryfruits.png"
+		},
+		{
+			"category_id" : "Masala and Spices",
+			"item_id" : "masala_1",
+			"item_name" : "Mirch Masala ",
+			"price" : 50.0,
+			"save_price" : 8.23,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 100
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 190
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 400
+				}
+
+			],
+			"item_icon" : "masala.png"
+		},
+		{
+			"category_id" : "Masala and Spices",
+			"item_id" : "masala_2",
+			"item_name" : "Haldi powder",
+			"price" : 50.0,
+			"save_price" : 8.23,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 100
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 190
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 400
+				}
+
+			],
+			"item_icon" : "masala.png"
+		},
+		{
+			"category_id" : "Masala and Spices",
+			"item_id" : "masala_3",
+			"item_name" : "Garam Masala",
+			"price" : 50.0,
+			"save_price" : 8.23,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 100
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 190
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 400
+				}
+
+			],
+			"item_icon" : "masala.png"
+		},
+		{
+			"category_id" : "Masala and Spices",
+			"item_id" : "masala_4",
+			"item_name" : "All Masala",
+			"price" : 50.0,
+			"save_price" : 8.23,
+			"weight_packs" : [
+				{
+					"pack_weight" : "100 gm",
+					"available" : 10,
+					"wPrice" : 100
+				},
+				{
+					"pack_weight" : "200 gm",
+					"available" : 27,
+					"wPrice" : 190
+				},
+				{
+					"pack_weight" : "500 gm",
+					"available" : 40,
+					"wPrice" : 400
+				}
+
+			],
+			"item_icon" : "masala.png"
+		}
+	]
+}

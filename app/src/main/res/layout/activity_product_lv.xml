@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".productLV"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/img_back"
+            android:src="@drawable/backarrow"
+            android:background="#29593e"
+            android:padding="@dimen/_10sdp"
+            />
+        <TextView
+            android:layout_width="@dimen/_225sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:textStyle="bold"
+            android:id="@+id/txt_header"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="#e6eaf2"
+            android:text="App"
+            android:background="#29593e"
+            android:textSize="@dimen/_16sdp"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            android:background="#edf2ef"
+            android:id="@+id/rl_cart">
+            <ImageView
+                android:id="@+id/cartIcon"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="right"
+                android:background="#29593e"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/scart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circletextview"
+                android:textSize="@dimen/_10sdp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:id="@+id/txtCartCount"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:text="cart"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_product"
+        android:divider="#29593e"
+        android:dividerHeight="@dimen/_1sdp" />
+
+</LinearLayout>
